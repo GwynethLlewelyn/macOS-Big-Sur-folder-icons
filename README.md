@@ -4,7 +4,7 @@ A simple Photoshop file to create new folder icons for macOS Big Sur, respecting
 See also the following _official_ resources for downloading:
   
 * [Apple System Fonts](https://developer.apple.com/fonts/) — These are the new official system fonts used across all current Apple platforms.
-* [Apple SF Symbols app](https://developer.apple.com/sf-symbols/) — this adds a further font, **SF Symbols**, meant to be used with the SF Pro font and including a set of 2400 ready-to-use icons, designed by Apple, meant to be used in apps in order to maintain UI/UX consistency; as well as a full application that allows searching for whatever icon you need.
+* [Apple SF Symbols app](https://developer.apple.com/sf-symbols/) — This adds a further font, **SF Symbols**, meant to be used with the SF Pro font and including a set of 2400 ready-to-use icons, designed by Apple, meant to be used in apps in order to maintain UI/UX consistency; as well as a full application that allows searching for whatever icon you need.
 
 ## Notes
 The Photoshop file has pretty much every icon I could grab, all with 1024x1024 pixels, at 144 ppi resolution. Each icon gets its own layer.
@@ -23,4 +23,4 @@ I've also added a few exported PNGs as examples at how they ought to look like. 
 
 Enjoy :-)
 
-  - Gwyn
+  — Gwyn

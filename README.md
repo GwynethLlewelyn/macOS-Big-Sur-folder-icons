@@ -24,3 +24,5 @@ I've also added a few exported PNGs as examples at how they ought to look like. 
 Enjoy :-)
 
   — Gwyn
+  
+[![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=GwynethLlewelyn_macOS-Big-Sur-folder-icons&metric=alert_status)](https://sonarcloud.io/summary/new_code?id=GwynethLlewelyn_macOS-Big-Sur-folder-icons)

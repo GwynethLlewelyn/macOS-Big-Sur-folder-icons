@@ -1,0 +1,33 @@
+name: Package Release
+
+on:
+  push:
+    tags:
+      - 'v*'
+
+jobs:
+  package:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v6
+
+      - name: Create package
+        run: |
+          zip -r "macOS-Big-Sur-folder-icons-${{ github.ref_name }}.zip" \
+            *.png *.psd.zip LICENSE README.md \
+            -x ".*" ".git/*" ".github/*" ".*/"
+
+      - name: Upload package as artifact
+        uses: actions/upload-artifact@v7
+        with:
+          name: package
+          path: macOS-Big-Sur-folder-icons-${{ github.ref_name }}.zip
+
+      - name: Create Release
+        uses: softprops/action-gh-release@v2
+        with:
+          files: macOS-Big-Sur-folder-icons-${{ github.ref_name }}.zip
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

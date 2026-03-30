@@ -14,7 +14,7 @@ The Photoshop file has pretty much every icon I could grab, all with 1024x1024 p
 
 A few layers are special: there is a 'Folder' layer, on top of which you can place whatever you want. There are a few guides which roughly show where the icon is supposed to be placed (I've tried to do it with Photoshop Frames, but I think I messed it up), although I have noticed that Apple's designers are not always very consistent in the _size_ of the icon.
 
-Note that 'officially' the icons on top of the folder have a specific colour (`#3faae5`, as far as I could guess) _and_ a strange bevel/shadow/glow or whatever effect they did (it's really minimal). I've attempted to reproduce it as best as I could, and you can copy those effects to your own icons easily, and eventually tweak them to perfection if you wish.
+Note that 'officially' the icons on top of the folder have a specific colour ('Picton Blue' or [`#3faae5`](https://www.color-name.com/hex/3faae5), as far as I could guess) _and_ a strange bevel/shadow/glow or whatever effect they did (it's really minimal). I've attempted to reproduce it as best as I could, and you can copy those effects to your own icons easily, and eventually tweak them to perfection if you wish.
 
 Other folder layers have sample icons. What I did first was to install the **Apple SF Symbols** application and search for icons that I liked. These are free to use for developers, so long as the resulting design is meant to be used on an Apple device. Some icons are 'special' in the sense that Apple restricts their usage to identify specific products and services; others are free to tweak and adapt.
 

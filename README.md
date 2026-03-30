@@ -1,12 +1,15 @@
 # macOS Big Sur folder icons
+![Logo](assets/macOS-Big-Sur-folders-with-Gwyn.png)
+
 A simple Photoshop file to create new folder icons for macOS Big Sur, respecting Apple's design guidelines.
 
 See also the following _official_ resources for downloading:
-  
-* [Apple System Fonts](https://developer.apple.com/fonts/) — These are the new official system fonts used across all current Apple platforms.
-* [Apple SF Symbols app](https://developer.apple.com/sf-symbols/) — This adds a further font, **SF Symbols**, meant to be used with the SF Pro font and including a set of 2400 ready-to-use icons, designed by Apple, meant to be used in apps in order to maintain UI/UX consistency; as well as a full application that allows searching for whatever icon you need.
+
+- [Apple System Fonts](https://developer.apple.com/fonts/) — These are the new official system fonts used across all current Apple platforms.
+- [Apple SF Symbols app](https://developer.apple.com/sf-symbols/) — This adds a further font, **SF Symbols**, meant to be used with the SF Pro font and including a set of 2400 ready-to-use icons, designed by Apple, meant to be used in apps in order to maintain UI/UX consistency; as well as a full application that allows searching for whatever icon you need.
 
 ## Notes
+
 The Photoshop file has pretty much every icon I could grab, all with 1024x1024 pixels, at 144 ppi resolution. Each icon gets its own layer.
 
 A few layers are special: there is a 'Folder' layer, on top of which you can place whatever you want. There are a few guides which roughly show where the icon is supposed to be placed (I've tried to do it with Photoshop Frames, but I think I messed it up), although I have noticed that Apple's designers are not always very consistent in the _size_ of the icon.
@@ -17,12 +20,29 @@ Other folder layers have sample icons. What I did first was to install the **App
 
 Those icons are actually inside the SF Symbols font. In Photoshop, what I did was to place the symbol, colour it with `#3faae5`, and convert to a Shape; then I applied the set of special effects mentioned above. That way, even if you don't have the SF Symbols font installed, you can still use this Photoshop file.
 
-If you need to add some text on top of the folder as well, use the SF Pro font — it can be combined with SF Symbols. There is at least one folder inside the System folder which has simply 'macOS' written on top of it, so we know that Apple does that :-) Note that you should apply the special shading effect to any words as well.
+If you need to add some text on top of the folder as well, use the SF Pro font — it can be combined with SF Symbols. There is at least one folder inside the System folder which has simply 'macOS' written on top of it, so we know that Apple does that 🙂 Note that you should apply the special shading effect to any words as well.
 
-I've also added a few exported PNGs as examples at how they ought to look like. If you wish to try them out, [you know the drill](https://support.apple.com/en-gb/guide/mac-help/mchlp2313/mac).
+I've also added a few exported PNGs as examples at how they ought to look like (compressed/minimised using the [Tinify API](https://tinify.com/developers/reference/http)). If you wish to try them out, [you know the drill](https://support.apple.com/en-gb/guide/mac-help/mchlp2313/mac) — just open the `./examples` folder to get access to them.
 
-Enjoy :-)
+Enjoy 🙂
 
-  — Gwyn
-  
+— Gwyn
+
+## TODO
+
+Five years later, and now Apple comes out with their 'Liquid Glass' look & feel. This means that this whole package needs to be redone from scratch. Oh well.
+
+## Release notes
+
+### v1.5
+
+- Releasing a new tag should now automatically add the package to the appropriate place on the GitHub repo's page
+- Therefore, the PSD file is now uncompressed — the zip file for the download is automatically generated (in theory)
+- Used the Tinify API to compress the sample images
+- Example images moved to their own folder
+
+### v1.0
+
+- First commit, PSD file compressed for easier download.
+
 [![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=GwynethLlewelyn_macOS-Big-Sur-folder-icons&metric=alert_status)](https://sonarcloud.io/summary/new_code?id=GwynethLlewelyn_macOS-Big-Sur-folder-icons)

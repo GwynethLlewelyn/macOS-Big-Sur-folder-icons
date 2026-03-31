@@ -32,21 +32,4 @@ Enjoy 🙂
 
 Five years later, and now Apple comes out with their 'Liquid Glass' look & feel. This means that this whole package needs to be redone from scratch. Oh well.
 
-## Release notes
-
-### v1.5.1
-
-- Fix some mistakes on the GitHub Actions scripts
-
-### v1.5.0
-
-- Releasing a new tag should now automatically add the package to the appropriate place on the GitHub repo's page
-- Therefore, the PSD file is now uncompressed — the zip file for the download is automatically generated (in theory)
-- Used the Tinify API to compress the sample images
-- Example images moved to their own folder
-
-### v1.0
-
-- First commit, PSD file compressed for easier download.
-
 [![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=GwynethLlewelyn_macOS-Big-Sur-folder-icons&metric=alert_status)](https://sonarcloud.io/summary/new_code?id=GwynethLlewelyn_macOS-Big-Sur-folder-icons)

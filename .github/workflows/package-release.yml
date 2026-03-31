@@ -4,6 +4,8 @@ on:
   push:
     tags:
       - 'v*'
+  # Allows you to run this workflow manually from the Actions tab
+  workflow_dispatch:
 
 jobs:
   package:
@@ -16,7 +18,7 @@ jobs:
       - name: Create package
         run: |
           zip -r "macOS-Big-Sur-folder-icons-${{ github.ref_name }}.zip" \
-            "*.png" "*.psd" LICENSE README.md \
+            *.psd LICENSE README.md examples/ \
             -x ".*" ".git/*" ".github/*" ".*/"
 
       - name: Upload package as artifact

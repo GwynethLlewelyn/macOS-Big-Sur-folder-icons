@@ -1,8 +1,8 @@
 name: Build on SonarQube
 on:
   push:
-    branches:
-      - main
+    tags:
+      - 'v*'
   pull_request:
     types: [opened, synchronize, reopened]
 jobs:

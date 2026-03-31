@@ -34,7 +34,11 @@ Five years later, and now Apple comes out with their 'Liquid Glass' look & feel.
 
 ## Release notes
 
-### v1.5
+### v1.5.1
+
+- Fix some mistakes on the GitHub Actions scripts
+
+### v1.5.0
 
 - Releasing a new tag should now automatically add the package to the appropriate place on the GitHub repo's page
 - Therefore, the PSD file is now uncompressed — the zip file for the download is automatically generated (in theory)

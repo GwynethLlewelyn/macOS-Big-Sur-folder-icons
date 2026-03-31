@@ -16,7 +16,7 @@ jobs:
       - name: Create package
         run: |
           zip -r "macOS-Big-Sur-folder-icons-${{ github.ref_name }}.zip" \
-            *.png *.psd.zip LICENSE README.md \
+            "*.png" "*.psd" LICENSE README.md \
             -x ".*" ".git/*" ".github/*" ".*/"
 
       - name: Upload package as artifact

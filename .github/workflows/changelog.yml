@@ -10,6 +10,8 @@ on:
   workflow_dispatch:
 jobs:
   generate-changelog:
+    permissions:
+      contents: write
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v6
